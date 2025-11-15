@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300">
+  <!-- Define gradients and effects -->
+  <defs>
+    <!-- Deep matte black -->
+    <linearGradient id="matteBlack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Rose gold gradient (modern luxury) -->
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b76e79;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e8a0a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c97d87;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Copper accent -->
+    <linearGradient id="copper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#b87333;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cd7f32;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Minimal shadow -->
+    <filter id="subtleShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Architectural Mark -->
+  <g transform="translate(50, 25)">
+    <!-- Minimalist geometric frame - square with cut corners (architectural) -->
+    <path d="M 40 20 L 160 20 L 180 40 L 180 160 L 160 180 L 40 180 L 20 160 L 20 40 Z" 
+          fill="url(#matteBlack)" 
+          stroke="url(#roseGold)" 
+          stroke-width="2"
+          filter="url(#subtleShadow)"/>
+    
+    <!-- Inner frame accent -->
+    <path d="M 48 32 L 152 32 L 168 48 L 168 152 L 152 168 L 48 168 L 32 152 L 32 48 Z" 
+          fill="none" 
+          stroke="url(#roseGold)" 
+          stroke-width="1" 
+          opacity="0.3"/>
+    
+    <!-- Luxury Estate Icon -->
+    <g transform="translate(100, 100)">
+      <!-- Grand central structure with peaked roof -->
+      <path d="M 0 -40 L 18 -25 L 18 35 L -18 35 L -18 -25 Z" 
+            fill="url(#matteBlack)" 
+            stroke="url(#roseGold)" 
+            stroke-width="2"/>
+      
+      <!-- Elegant peaked roof cap -->
+      <path d="M -18 -25 L 0 -40 L 18 -25" 
+            fill="none" 
+            stroke="url(#roseGold)" 
+            stroke-width="2.5"
+            stroke-linejoin="miter"/>
+      
+      <!-- Side wings (estate symmetry) -->
+      <rect x="-45" y="-10" width="25" height="45" 
+            fill="url(#matteBlack)" 
+            stroke="url(#roseGold)" 
+            stroke-width="1.5"/>
+      <rect x="20" y="-10" width="25" height="45" 
+            fill="url(#matteBlack)" 
+            stroke="url(#roseGold)" 
+            stroke-width="1.5"/>
+      
+      <!-- Wing roofs - flat modern style -->
+      <line x1="-45" y1="-10" x2="-20" y2="-10" stroke="url(#copper)" stroke-width="2"/>
+      <line x1="20" y1="-10" x2="45" y2="-10" stroke="url(#copper)" stroke-width="2"/>
+      
+      <!-- Grand entrance door -->
+      <rect x="-8" y="15" width="16" height="20" 
+            fill="url(#copper)" 
+            stroke="url(#roseGold)" 
+            stroke-width="1"/>
+      
+      <!-- Door arch detail (luxury touch) -->
+      <path d="M -8 15 Q 0 10 8 15" 
+            fill="none" 
+            stroke="url(#roseGold)" 
+            stroke-width="1"/>
+      
+      <!-- Symmetrical windows - multiple floors -->
+      <!-- Left wing windows -->
+      <rect x="-40" y="-5" width="8" height="8" fill="none" stroke="url(#roseGold)" stroke-width="1" opacity="0.6"/>
+      <rect x="-40" y="10" width="8" height="8" fill="none" stroke="url(#roseGold)" stroke-width="1" opacity="0.6"/>
+      
+      <!-- Right wing windows -->
+      <rect x="32" y="-5" width="8" height="8" fill="none" stroke="url(#roseGold)" stroke-width="1" opacity="0.6"/>
+      <rect x="32" y="10" width="8" height="8" fill="none" stroke="url(#roseGold)" stroke-width="1" opacity="0.6"/>
+      
+      <!-- Center building upper windows -->
+      <rect x="-12" y="-15" width="7" height="7" fill="none" stroke="url(#roseGold)" stroke-width="1" opacity="0.7"/>
+      <rect x="5" y="-15" width="7" height="7" fill="none" stroke="url(#roseGold)" stroke-width="1" opacity="0.7"/>
+      
+      <!-- Center building mid windows -->
+      <rect x="-12" y="0" width="7" height="7" fill="none" stroke="url(#roseGold)" stroke-width="1" opacity="0.7"/>
+      <rect x="5" y="0" width="7" height="7" fill="none" stroke="url(#roseGold)" stroke-width="1" opacity="0.7"/>
+      
+      <!-- Decorative columns at entrance -->
+      <rect x="-10" y="25" width="2" height="10" fill="url(#roseGold)" opacity="0.4"/>
+      <rect x="8" y="25" width="2" height="10" fill="url(#roseGold)" opacity="0.4"/>
+      
+      <!-- Foundation/base line (estate grounds) -->
+      <line x1="-50" y1="40" x2="50" y2="40" stroke="url(#copper)" stroke-width="2.5"/>
+      <line x1="-48" y1="43" x2="48" y2="43" stroke="url(#roseGold)" stroke-width="1" opacity="0.3"/>
+    </g>
+    
+    <!-- Monogram corner detail -->
+    <text x="100" y="195" 
+          font-family="'Helvetica Neue', 'Arial', sans-serif" 
+          font-size="14" 
+          font-weight="300" 
+          fill="url(#roseGold)" 
+          text-anchor="middle" 
+          letter-spacing="4">
+      MS
+    </text>
+  </g>
+  
+  <!-- Ultra-Modern Typography -->
+  <g transform="translate(260, 75)">
+    <!-- METROPLEX - ultra light weight -->
+    <text x="0" y="0" 
+          font-family="'Helvetica Neue', 'Futura', 'Avenir', sans-serif" 
+          font-size="52" 
+          font-weight="100" 
+          fill="#0a0a0a" 
+          letter-spacing="14">
+      METROPLEX
+    </text>
+    
+    <!-- Minimal separator - just a dot -->
+    <circle cx="230" cy="20" r="2" fill="url(#copper)"/>
+    
+    <!-- SHIELD - bold contrast -->
+    <text x="0" y="85" 
+          font-family="'Helvetica Neue', 'Futura', 'Avenir', sans-serif" 
+          font-size="74" 
+          font-weight="900" 
+          fill="url(#matteBlack)" 
+          letter-spacing="4">
+      SHIELD
+    </text>
+    
+    <!-- Rose gold accent bar -->
+    <rect x="0" y="95" width="120" height="3" fill="url(#roseGold)"/>
+    
+    <!-- Contemporary tagline -->
+    <text x="0" y="125" 
+          font-family="'Helvetica Neue', 'Arial', sans-serif" 
+          font-size="12" 
+          font-weight="300" 
+          fill="#6b7280" 
+          letter-spacing="9">
+      CURATED HOME SERVICES
+    </text>
+  </g>
+</svg>

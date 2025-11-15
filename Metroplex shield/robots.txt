@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourusername.github.io/metroplex-shield-website/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Block access to unnecessary files
+Disallow: /assets/css/style_backup.css
+Disallow: /FORM_SETUP.md
+Disallow: /.git/
+Disallow: /.vscode/
+
+# Allow search engines to index main pages
+Allow: /index.html
+Allow: /essential-plan.html
+Allow: /guardian-plan.html
+Allow: /premier-plan.html
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/

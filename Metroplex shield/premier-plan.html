@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Plan - $249/month | MetroPlex Shield</title>
+    <meta name="description" content="Premier home maintenance plan for $249/month. Bi-weekly visits, dedicated technician, quarterly HVAC tune-ups, and complete concierge service in DFW.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html">
+                    <img src="assets/images/metroplex-shield-logo.svg" alt="MetroPlex Shield" class="logo">
+                </a>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="index.html#plans" class="nav__link">Plans</a></li>
+                <li><a href="essential-plan.html" class="nav__link">Essential</a></li>
+                <li><a href="guardian-plan.html" class="nav__link">Guardian</a></li>
+            </ul>
+            <div class="nav__toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Plan Hero -->
+        <section class="plan-hero" style="background: linear-gradient(135deg, #744210 0%, #b45309 100%);">
+            <div class="container">
+                <div class="plan-hero__content">
+                    <div class="plan-hero__badge">Premier Plan - Ultimate Protection</div>
+                    <h1 class="plan-hero__title">Complete Home Protection & Concierge</h1>
+                    
+                    <!-- Pricing Toggle -->
+                    <div class="pricing-toggle">
+                        <span class="toggle-label active">Monthly</span>
+                        <div class="toggle-switch">
+                            <input type="checkbox" id="premierYearlyToggle">
+                            <span class="toggle-slider"></span>
+                        </div>
+                        <span class="toggle-label">
+                            Yearly
+                            <span class="discount-badge">Save 15%</span>
+                        </span>
+                    </div>
+                    
+                    <div class="plan-hero__price">
+                        <span class="plan-hero__currency">$</span>
+                        <span class="plan-hero__amount" data-monthly="$249" data-yearly="$212">$249</span>
+                        <span class="plan-hero__period">/month</span>
+                    </div>
+                    <div class="plan__yearly-note" style="display: none;">
+                        <small>Billed annually at $2,539 (Save $449)</small>
+                    </div>
+                    <p class="plan-hero__description">The ultimate in home care. A dedicated technician who knows your home inside and out, comprehensive bi-weekly visits, and complete concierge service - you never have to think about maintenance again.</p>
+                    <div class="plan-hero__cta">
+                        <a href="https://buy.stripe.com/cNi9ATeAra06fnS0WZaIM0u" 
+                           class="btn btn--primary btn--large subscribe-btn"
+                           data-monthly-url="https://buy.stripe.com/cNi9ATeAra06fnS0WZaIM0u"
+                           data-yearly-url="https://buy.stripe.com/fZu8wPcsj2xEa3y0WZaIM0x">
+                            Subscribe Now
+                        </a>
+                        <a href="#details" class="btn btn--secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's Included -->
+        <section id="details" class="plan-details">
+            <div class="container">
+                <h2 class="section__title">What's Included</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature__icon">✅</div>
+                        <h3>Everything in Guardian</h3>
+                        <p>All monthly services plus water heater service, plumbing checks, electrical inspections, smart home maintenance, and free service calls</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">📅</div>
+                        <h3>Bi-Weekly Preventive Visits</h3>
+                        <p>Comprehensive inspections every two weeks ensure no detail is missed and problems are caught at the earliest possible stage</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">🔧</div>
+                        <h3>Quarterly HVAC Professional Tune-ups</h3>
+                        <p>Professional HVAC technician provides comprehensive system optimization four times per year for peak efficiency</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">🏠</div>
+                        <h3>Annual Deep Systems Check</h3>
+                        <p>Comprehensive annual inspection of electrical, plumbing, and structural systems with detailed reporting and recommendations</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">🚨</div>
+                        <h3>Two Emergency Service Calls/Year</h3>
+                        <p>Up to 2 hours each of emergency service calls included - covering most common urgent repairs at no additional cost</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">💰</div>
+                        <h3>25% Service Discount</h3>
+                        <p>Maximum savings on all additional services and repairs beyond your comprehensive plan coverage</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">👨‍🔧</div>
+                        <h3>Dedicated Technician</h3>
+                        <p>Your personal home maintenance expert who knows your home's history, quirks, and optimal care requirements</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">🏆</div>
+                        <h3>Full Concierge Service</h3>
+                        <p>We track everything, schedule everything, and handle all maintenance coordination - you literally do nothing</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">📱</div>
+                        <h3>Smart Home Optimization</h3>
+                        <p>Seasonal programming and optimization of all smart home devices for maximum comfort and efficiency</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bi-Weekly Schedule -->
+        <section class="schedule">
+            <div class="container">
+                <h2 class="section__title">Your Bi-Weekly Premier Schedule</h2>
+                <p class="section__subtitle">Comprehensive coverage with alternating focus areas every visit</p>
+                <div class="premier-schedule">
+                    <div class="schedule-week">
+                        <h3>Week 1 & 3 Focus Areas</h3>
+                        <div class="week-grid">
+                            <div class="week-item">
+                                <h4>🔧 Mechanical Systems</h4>
+                                <ul>
+                                    <li>HVAC performance check</li>
+                                    <li>Water heater monitoring</li>
+                                    <li>Plumbing system inspection</li>
+                                    <li>Electrical safety check</li>
+                                </ul>
+                            </div>
+                            <div class="week-item">
+                                <h4>🛡️ Safety & Security</h4>
+                                <ul>
+                                    <li>Detector testing & maintenance</li>
+                                    <li>Security system verification</li>
+                                    <li>Emergency equipment check</li>
+                                    <li>Safety hazard assessment</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="schedule-week">
+                        <h3>Week 2 & 4 Focus Areas</h3>
+                        <div class="week-grid">
+                            <div class="week-item">
+                                <h4>📱 Smart Home & Efficiency</h4>
+                                <ul>
+                                    <li>Smart device optimization</li>
+                                    <li>Energy efficiency review</li>
+                                    <li>Automation system updates</li>
+                                    <li>Thermostat programming</li>
+                                </ul>
+                            </div>
+                            <div class="week-item">
+                                <h4>🏠 Structural & Exterior</h4>
+                                <ul>
+                                    <li>Weather sealing inspection</li>
+                                    <li>Gutter and drainage check</li>
+                                    <li>Exterior maintenance review</li>
+                                    <li>Seasonal preparation tasks</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quarterly-highlights">
+                    <h3>Plus Quarterly Highlights</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-item">
+                            <strong>Q1:</strong> Professional HVAC tune-up, annual deep systems inspection, smart home seasonal programming
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Q2:</strong> HVAC tune-up, comprehensive plumbing review, exterior system optimization
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Q3:</strong> HVAC tune-up, electrical system deep check, smart home efficiency review
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Q4:</strong> HVAC tune-up, winter preparation, annual report and next year planning
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premier Benefits -->
+        <section class="premier-benefits">
+            <div class="container">
+                <h2 class="section__title">Why Choose Premier?</h2>
+                <div class="benefits-comparison">
+                    <div class="benefit-premium">
+                        <div class="benefit-premium__icon">🏆</div>
+                        <h3>Dedicated Technician Advantage</h3>
+                        <p>Your technician knows your home's history, previous issues, and optimal settings. This personalized knowledge leads to better preventive care and faster problem resolution.</p>
+                    </div>
+                    <div class="benefit-premium">
+                        <div class="benefit-premium__icon">🎯</div>
+                        <h3>Proactive vs Reactive</h3>
+                        <p>Bi-weekly visits catch issues in their earliest stages. What might become a $500-2000 repair is often resolved with a $20-50 preventive fix.</p>
+                    </div>
+                    <div class="benefit-premium">
+                        <div class="benefit-premium__icon">⏰</div>
+                        <h3>Complete Peace of Mind</h3>
+                        <p>Never think about home maintenance again. We handle scheduling, tracking, seasonal adjustments, and all coordination. Your time is completely freed up.</p>
+                    </div>
+                    <div class="benefit-premium">
+                        <div class="benefit-premium__icon">💎</div>
+                        <h3>Maximum Home Value</h3>
+                        <p>Premier-level maintenance keeps your home in peak condition, preserving and enhancing its value while extending the life of all major systems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROI Calculator -->
+        <section class="roi">
+            <div class="container">
+                <h2 class="section__title">Premier Plan Return on Investment</h2>
+                <div class="roi-comparison">
+                    <div class="roi-column">
+                        <h3>Typical Annual Costs Without Premier</h3>
+                        <div class="cost-item">
+                            <span>HVAC emergency repairs:</span>
+                            <span>$800-2,500</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>Plumbing emergency calls:</span>
+                            <span>$300-800</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>Electrical issues:</span>
+                            <span>$200-600</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>Water heater problems:</span>
+                            <span>$400-1,200</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>Preventive maintenance:</span>
+                            <span>$400-800</span>
+                        </div>
+                        <div class="cost-total">
+                            <span><strong>Potential annual costs:</strong></span>
+                            <span><strong>$2,100-5,900</strong></span>
+                        </div>
+                    </div>
+                    
+                    <div class="roi-column roi-column--premier">
+                        <h3>With Premier Plan</h3>
+                        <div class="cost-item">
+                            <span>Premier Plan annual cost:</span>
+                            <span>$2,988</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>Includes 4 hours emergency service:</span>
+                            <span>$300+ value</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>Prevented major repairs:</span>
+                            <span>$1,000s saved</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>25% discount on additional work:</span>
+                            <span>Ongoing savings</span>
+                        </div>
+                        <div class="cost-item">
+                            <span>Enhanced home value:</span>
+                            <span>Priceless</span>
+                        </div>
+                        <div class="cost-total cost-total--savings">
+                            <span><strong>Total value:</strong></span>
+                            <span><strong>$5,000+ annually</strong></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="roi-summary">
+                    <p><strong>The Premier Plan typically pays for itself with just one prevented major repair, while providing year-round peace of mind and optimal home performance.</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compare Plans -->
+        <section class="compare">
+            <div class="container">
+                <h2 class="section__title">Compare Plans</h2>
+                <div class="comparison-table">
+                    <div class="comparison-header">
+                        <div class="comparison-feature">Feature</div>
+                        <div class="comparison-plan">Essential<br><span>$89/mo</span></div>
+                        <div class="comparison-plan">Guardian<br><span>$149/mo</span></div>
+                        <div class="comparison-plan comparison-plan--current">Premier<br><span>$249/mo</span></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Visit Frequency</div>
+                        <div class="comparison-plan">Quarterly</div>
+                        <div class="comparison-plan">Monthly</div>
+                        <div class="comparison-plan comparison-plan--current">Bi-weekly</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">HVAC Professional Tune-ups</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan comparison-plan--current">✓ Quarterly</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Deep Systems Inspection</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan comparison-plan--current">✓ Annual</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Emergency Service Calls</div>
+                        <div class="comparison-plan">Priority Support</div>
+                        <div class="comparison-plan">Free Dispatch</div>
+                        <div class="comparison-plan comparison-plan--current">2 Free Calls/Year</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Service Discount</div>
+                        <div class="comparison-plan">10%</div>
+                        <div class="comparison-plan">20%</div>
+                        <div class="comparison-plan comparison-plan--current">25%</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Dedicated Technician</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan comparison-plan--current">✓ Personal Expert</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Concierge Service</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan comparison-plan--current">✓ Full Service</div>
+                    </div>
+                </div>
+                <div class="comparison-actions">
+                    <a href="essential-plan.html" class="btn btn--outline">View Essential</a>
+                    <a href="guardian-plan.html" class="btn btn--outline">View Guardian</a>
+                    <a href="#contact" class="btn btn--primary">Choose Premier</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section__title">Ready for Premier Protection?</h2>
+                <p class="section__subtitle">Experience the ultimate in home maintenance - complete concierge service with your dedicated technician.</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get Your Premier Plan</h3>
+                        <div class="contact-item">
+                            <strong>📞 Call Us:</strong>
+                            <p>(682) 466-2130</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📧 Email:</strong>
+                            <p>hello@metroplexshield.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>🏠 Service Area:</strong>
+                            <p>Dallas, Garland, Plano, Richardson & Surrounding Areas</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>⚡ Response Time:</strong>
+                            <p>Priority scheduling within 24 hours</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>👨‍🔧 Dedicated Service:</strong>
+                            <p>Meet your personal technician within one week</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contact-form" action="https://formspree.io/f/xblqogvn" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Home Address *</label>
+                                <input type="text" id="address" name="address" placeholder="Required for technician assignment" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="home-size">Approximate Home Size</label>
+                                <select id="home-size" name="home-size">
+                                    <option value="">Select size range</option>
+                                    <option value="small">Under 2,000 sq ft</option>
+                                    <option value="medium">2,000-3,500 sq ft</option>
+                                    <option value="large">3,500-5,000 sq ft</option>
+                                    <option value="estate">Over 5,000 sq ft</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="current-issues">Current Maintenance Concerns</label>
+                                <textarea id="current-issues" name="current-issues" rows="4" placeholder="Describe any current issues or areas of concern with your home systems..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="start-date">Preferred Start Date</label>
+                                <input type="date" id="start-date" name="start-date">
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--large">Start Premier Plan</button>
+                            <p class="form-note">* We'll contact you within 24 hours to introduce your dedicated technician and schedule your first comprehensive visit</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>MetroPlex Shield</h3>
+                    <p>Professional home maintenance for the Dallas-Fort Worth metroplex</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Plans</h4>
+                    <ul>
+                        <li><a href="essential-plan.html">Essential Plan</a></li>
+                        <li><a href="guardian-plan.html">Guardian Plan</a></li>
+                        <li><a href="premier-plan.html">Premier Plan</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Service Area</h4>
+                    <p>Dallas, Fort Worth, Plano, Irving, Arlington, and surrounding DFW areas</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 MetroPlex Shield. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

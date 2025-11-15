@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardian Plan - $149/month | MetroPlex Shield</title>
+    <meta name="description" content="Guardian home maintenance plan for $149/month. Monthly inspections, water heater service, plumbing checks, and priority emergency support in DFW.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <a href="index.html">
+                    <img src="assets/images/metroplex-shield-logo.svg" alt="MetroPlex Shield" class="logo">
+                </a>
+            </div>
+            <ul class="nav__menu">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="index.html#plans" class="nav__link">Plans</a></li>
+                <li><a href="essential-plan.html" class="nav__link">Essential</a></li>
+                <li><a href="premier-plan.html" class="nav__link">Premier</a></li>
+            </ul>
+            <div class="nav__toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Plan Hero -->
+        <section class="plan-hero">
+            <div class="container">
+                <div class="plan-hero__content">
+                    <div class="plan-hero__badge">Guardian Plan - Most Popular</div>
+                    <h1 class="plan-hero__title">Catch Problems Before They're Expensive</h1>
+                    
+                    <!-- Pricing Toggle -->
+                    <div class="pricing-toggle">
+                        <span class="toggle-label active">Monthly</span>
+                        <div class="toggle-switch">
+                            <input type="checkbox" id="guardianYearlyToggle">
+                            <span class="toggle-slider"></span>
+                        </div>
+                        <span class="toggle-label">
+                            Yearly
+                            <span class="discount-badge">Save 15%</span>
+                        </span>
+                    </div>
+                    
+                    <div class="plan-hero__price">
+                        <span class="plan-hero__currency">$</span>
+                        <span class="plan-hero__amount" data-monthly="$149" data-yearly="$127">$149</span>
+                        <span class="plan-hero__period">/month</span>
+                    </div>
+                    <div class="plan__yearly-note" style="display: none;">
+                        <small>Billed annually at $1,519 (Save $269)</small>
+                    </div>
+                    <p class="plan-hero__description">The perfect balance of thorough maintenance and value. Monthly inspections catch issues early while comprehensive system checks ensure your home stays in peak condition.</p>
+                    <div class="plan-hero__cta">
+                        <a href="https://buy.stripe.com/28EcN5akba06ejOeNPaIM0t" 
+                           class="btn btn--primary btn--large subscribe-btn"
+                           data-monthly-url="https://buy.stripe.com/28EcN5akba06ejOeNPaIM0t"
+                           data-yearly-url="https://buy.stripe.com/9B6fZh3VN4FM7VqcFHaIM0w">
+                            Subscribe Now
+                        </a>
+                        <a href="#details" class="btn btn--secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's Included -->
+        <section id="details" class="plan-details">
+            <div class="container">
+                <h2 class="section__title">What's Included</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature__icon">✅</div>
+                        <h3>Everything in Essential</h3>
+                        <p>All quarterly services: HVAC filters, detector testing, seasonal prep, priority support, 10% discount, and annual reports</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">🔍</div>
+                        <h3>Monthly Preventive Inspections</h3>
+                        <p>Rotating monthly checklist covering different home systems to catch potential issues before they become problems</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">🚿</div>
+                        <h3>Water Heater Service</h3>
+                        <p>Annual flush and comprehensive inspection to extend life and maintain efficiency of your water heating system</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">🔧</div>
+                        <h3>Plumbing Leak Detection</h3>
+                        <p>Monthly checks for leaks, fixture performance, and water pressure issues throughout your home</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">⚡</div>
+                        <h3>Electrical Panel Inspection</h3>
+                        <p>Regular electrical panel checks and outlet testing to ensure safety and code compliance</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">📱</div>
+                        <h3>Smart Home Device Maintenance</h3>
+                        <p>Keep your smart thermostats, security systems, and automated devices running optimally</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">💰</div>
+                        <h3>20% Service Discount</h3>
+                        <p>Enhanced savings on all additional services and repairs beyond your plan coverage</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature__icon">📞</div>
+                        <h3>Free Service Calls</h3>
+                        <p>Waived dispatch fees for emergency and non-emergency service calls - save $75-100 per visit</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Monthly Schedule -->
+        <section class="schedule">
+            <div class="container">
+                <h2 class="section__title">Your Monthly Maintenance Rotation</h2>
+                <p class="section__subtitle">Each month we focus on different systems to ensure comprehensive coverage</p>
+                <div class="schedule-grid">
+                    <div class="schedule-item">
+                        <div class="schedule-item__season">January</div>
+                        <div class="schedule-item__month">New Year Systems Check</div>
+                        <ul class="schedule-item__tasks">
+                            <li>HVAC filter replacement</li>
+                            <li>Heating system inspection</li>
+                            <li>Smoke/CO detector testing</li>
+                            <li>Water heater annual service</li>
+                            <li>Electrical panel inspection</li>
+                        </ul>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-item__season">February</div>
+                        <div class="schedule-item__month">Plumbing Focus</div>
+                        <ul class="schedule-item__tasks">
+                            <li>Leak detection inspection</li>
+                            <li>Fixture performance check</li>
+                            <li>Water pressure assessment</li>
+                            <li>Pipe insulation review</li>
+                            <li>Smart device maintenance</li>
+                        </ul>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-item__season">March</div>
+                        <div class="schedule-item__month">Spring Preparation</div>
+                        <ul class="schedule-item__tasks">
+                            <li>Outdoor system activation</li>
+                            <li>Gutter and downspout check</li>
+                            <li>Weatherstripping inspection</li>
+                            <li>AC system preparation</li>
+                            <li>Electrical outlet testing</li>
+                        </ul>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-item__season">April</div>
+                        <div class="schedule-item__month">HVAC Focus</div>
+                        <ul class="schedule-item__tasks">
+                            <li>HVAC filter replacement</li>
+                            <li>Ductwork inspection</li>
+                            <li>Thermostat calibration</li>
+                            <li>Air quality assessment</li>
+                            <li>Smart home optimization</li>
+                        </ul>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-item__season">May</div>
+                        <div class="schedule-item__month">Safety Systems</div>
+                        <ul class="schedule-item__tasks">
+                            <li>Detector battery replacement</li>
+                            <li>Security system check</li>
+                            <li>Electrical safety inspection</li>
+                            <li>Plumbing leak check</li>
+                            <li>Smart device updates</li>
+                        </ul>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="schedule-item__season">June</div>
+                        <div class="schedule-item__month">Summer Prep</div>
+                        <ul class="schedule-item__tasks">
+                            <li>AC performance optimization</li>
+                            <li>Cooling system efficiency</li>
+                            <li>Insulation assessment</li>
+                            <li>Water system summer prep</li>
+                            <li>Smart thermostat tuning</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <p><em>Schedule continues through December with rotating focus areas</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Proposition -->
+        <section class="value">
+            <div class="container">
+                <h2 class="section__title">Guardian Plan Value</h2>
+                <div class="value-comparison">
+                    <div class="value-item">
+                        <h3>Without Guardian Plan</h3>
+                        <ul class="value-list">
+                            <li>Emergency service call: $75-100</li>
+                            <li>Water heater service: $150-200</li>
+                            <li>Electrical inspection: $100-150</li>
+                            <li>Plumbing inspection: $85-120</li>
+                            <li>HVAC filter changes: $20-30 each</li>
+                            <li><strong>Total if needed: $500+ per year</strong></li>
+                        </ul>
+                    </div>
+                    <div class="value-item value-item--guardian">
+                        <h3>With Guardian Plan</h3>
+                        <ul class="value-list">
+                            <li>Monthly comprehensive visits</li>
+                            <li>All services included</li>
+                            <li>Free dispatch on service calls</li>
+                            <li>20% discount on additional work</li>
+                            <li>Proactive problem prevention</li>
+                            <li><strong>Just $149/month - $1,788/year</strong></li>
+                        </ul>
+                        <div class="value-savings">
+                            <strong>Plus: Avoid costly emergency repairs through prevention!</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compare Plans -->
+        <section class="compare">
+            <div class="container">
+                <h2 class="section__title">Compare Plans</h2>
+                <div class="comparison-table">
+                    <div class="comparison-header">
+                        <div class="comparison-feature">Feature</div>
+                        <div class="comparison-plan">Essential<br><span>$89/mo</span></div>
+                        <div class="comparison-plan comparison-plan--current">Guardian<br><span>$149/mo</span></div>
+                        <div class="comparison-plan">Premier<br><span>$249/mo</span></div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Visit Frequency</div>
+                        <div class="comparison-plan">Quarterly</div>
+                        <div class="comparison-plan comparison-plan--current">Monthly</div>
+                        <div class="comparison-plan">Bi-weekly</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">HVAC Filter Changes</div>
+                        <div class="comparison-plan">✓</div>
+                        <div class="comparison-plan comparison-plan--current">✓</div>
+                        <div class="comparison-plan">✓</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Detector Testing</div>
+                        <div class="comparison-plan">✓</div>
+                        <div class="comparison-plan comparison-plan--current">✓</div>
+                        <div class="comparison-plan">✓</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Water Heater Service</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan comparison-plan--current">✓ Annual</div>
+                        <div class="comparison-plan">✓ Annual</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Plumbing Inspections</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan comparison-plan--current">✓ Monthly</div>
+                        <div class="comparison-plan">✓ Monthly</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">HVAC Professional Tune-ups</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan comparison-plan--current">—</div>
+                        <div class="comparison-plan">✓ Quarterly</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Emergency Service Calls</div>
+                        <div class="comparison-plan">Priority Support</div>
+                        <div class="comparison-plan comparison-plan--current">Free Dispatch</div>
+                        <div class="comparison-plan">2 Free Calls/Year</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Service Discount</div>
+                        <div class="comparison-plan">10%</div>
+                        <div class="comparison-plan comparison-plan--current">20%</div>
+                        <div class="comparison-plan">25%</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-feature">Dedicated Technician</div>
+                        <div class="comparison-plan">—</div>
+                        <div class="comparison-plan comparison-plan--current">—</div>
+                        <div class="comparison-plan">✓</div>
+                    </div>
+                </div>
+                <div class="comparison-actions">
+                    <a href="essential-plan.html" class="btn btn--outline">View Essential</a>
+                    <a href="#contact" class="btn btn--primary">Choose Guardian</a>
+                    <a href="premier-plan.html" class="btn btn--outline">View Premier</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section__title">Ready to Get Started?</h2>
+                <p class="section__subtitle">Join hundreds of DFW homeowners who chose the Guardian Plan for comprehensive home protection.</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get Your Guardian Plan</h3>
+                        <div class="contact-item">
+                            <strong>📞 Call Us:</strong>
+                            <p>(682) 466-2130</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>📧 Email:</strong>
+                            <p>hello@metroplexshield.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>🏠 Service Area:</strong>
+                            <p>Dallas, Garland, Plano, Richardson & Surrounding Areas</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>⚡ Response Time:</strong>
+                            <p>Free consultation within 24 hours</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>🎯 Why Guardian?</strong>
+                            <p>Most popular choice - perfect balance of comprehensive care and value</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contact-form" action="https://formspree.io/f/xblqogvn" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Home Address</label>
+                                <input type="text" id="address" name="address" placeholder="For service area verification">
+                            </div>
+                            <div class="form-group">
+                                <label for="home-age">Approximate Age of Home</label>
+                                <select id="home-age" name="home-age">
+                                    <option value="">Select age range</option>
+                                    <option value="new">Less than 5 years</option>
+                                    <option value="recent">5-15 years</option>
+                                    <option value="established">15-30 years</option>
+                                    <option value="mature">30+ years</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Questions or Special Requests</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Tell us about your home maintenance needs or any specific concerns..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn--primary btn--large">Start Guardian Plan</button>
+                            <p class="form-note">* We'll contact you within 24 hours to schedule your first comprehensive inspection</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3>MetroPlex Shield</h3>
+                    <p>Professional home maintenance for the Dallas-Fort Worth metroplex</p>
+                </div>
+                <div class="footer__section">
+                    <h4>Plans</h4>
+                    <ul>
+                        <li><a href="essential-plan.html">Essential Plan</a></li>
+                        <li><a href="guardian-plan.html">Guardian Plan</a></li>
+                        <li><a href="premier-plan.html">Premier Plan</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4>Service Area</h4>
+                    <p>Dallas, Fort Worth, Plano, Irving, Arlington, and surrounding DFW areas</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 MetroPlex Shield. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
