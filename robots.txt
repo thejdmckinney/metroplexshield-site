@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://yourusername.github.io/metroplex-shield-website/sitemap.xml
+Sitemap: https://metroplexshield.com/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1
