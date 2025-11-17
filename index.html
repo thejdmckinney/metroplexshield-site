@@ -158,14 +158,21 @@
         <nav class="nav container" role="navigation" aria-label="Main navigation">
             <div class="nav__logo">
                 <a href="#home" aria-label="MetroPlex Shield Homepage">
-                    <img src="assets/images/metroplex-shield-logo.svg" alt="MetroPlex Shield - Professional Home Maintenance" class="logo" width="180" height="45" loading="eager">
+                        <img src="assets/images/New logo v5.png" alt="MetroPlex Shield - Professional Home Maintenance" class="logo" width="180" height="45" loading="eager">
                 </a>
             </div>
             <ul class="nav__menu" role="menubar">
                 <li role="none"><a href="#home" class="nav__link" role="menuitem">Home</a></li>
                 <li role="none"><a href="#plans" class="nav__link" role="menuitem">Estate Plans</a></li>
                 <li role="none"><a href="luxury-services.html" class="nav__link" role="menuitem">Luxury Services</a></li>
-                <li role="none"><a href="university-park.html" class="nav__link" role="menuitem">University Park</a></li>
+                <li class="nav__dropdown" role="none">
+                    <a class="nav__link" href="#">Locations ▾</a>
+                    <ul class="nav__dropdown-menu">
+                        <li><a class="nav__link" href="university-park.html" role="menuitem">University Park</a></li>
+                        <li><a class="nav__link" href="highland-park.html" role="menuitem">Highland Park</a></li>
+                        <li><a class="nav__link" href="preston-hollow.html" role="menuitem">Preston Hollow</a></li>
+                    </ul>
+                </li>
                 <li role="none"><a href="#contact" class="nav__link" role="menuitem">Contact</a></li>
             </ul>
             <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
@@ -202,7 +209,7 @@
         <section id="benefits" class="benefits" aria-labelledby="benefits-title">
             <div class="container">
                 <h2 id="benefits-title" class="section__title">Why Luxury Homeowners Choose MetroPlex Shield Estate Care</h2>
-                <p class="section__subtitle">Trusted by discerning homeowners in University Park, Highland Park, Preston Hollow, and Dallas's most exclusive neighborhoods</p>
+                <p class="section__subtitle" style="color: #274472; text-shadow: 0 2px 8px rgba(255,255,255,0.12);">Trusted by discerning homeowners in University Park, Highland Park, Preston Hollow, and Dallas's most exclusive neighborhoods</p>
                 <div class="benefits__grid">
                     <div class="benefit">
                         <div class="benefit__icon">🛡️</div>
@@ -229,10 +236,10 @@
         </section>
 
         <!-- Luxury Services Section -->
-        <section id="luxury-services" class="luxury-services" style="background: #f8f9fa; padding: 4rem 0;">
+    <section id="luxury-services" class="luxury-services" style="background: #f8f9fa; padding: 4rem 0; color: #274472;">
             <div class="container">
                 <h2 class="section__title">Premium Services for Luxury Homes</h2>
-                <p class="section__subtitle">Specialized care for high-end estates in University Park, Highland Park & Preston Hollow</p>
+                <p class="section__subtitle" style="color: #274472;">Specialized care for high-end estates in University Park, Highland Park & Preston Hollow</p>
                 <div class="services__grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
                     <div class="service-card" style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
                         <h3 style="color: #2c3e50; margin-bottom: 1rem;">🏛️ Estate Concierge Services</h3>
@@ -254,7 +261,7 @@
         <section id="plans" class="plans">
             <div class="container">
                 <h2 class="section__title">Estate Maintenance Plans</h2>
-                <p class="section__subtitle">All plans can be fully customized to meet your luxury home's specific needs. Priority emergency support and detailed reporting included.</p>
+                <p class="section__subtitle" style="color: #274472;">All plans can be fully customized to meet your luxury home's specific needs. Priority emergency support and detailed reporting included.</p>
                 
                 <!-- Pricing Toggle -->
                 <div class="pricing-toggle">
@@ -591,7 +598,7 @@
                 <div class="footer__section">
                     <h4>Service Area</h4>
                     <p>Dallas, Garland, Plano, Richardson & Surrounding Areas</p>
-                </div>
+                    <img src="assets/images/New logo v5.png" alt="MetroPlex Shield" class="footer__logo-img">
             </div>
             <div class="footer__bottom">
                 <p>&copy; 2024 MetroPlex Shield. All rights reserved.</p>

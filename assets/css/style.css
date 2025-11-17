@@ -1,3 +1,48 @@
+/* Footer Logo Sizing */
+.footer__logo-img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* Dropdown Navigation Styles */
+.nav__dropdown {
+    position: relative;
+}
+.nav__dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    z-index: 1001;
+    padding: 0.5rem 0;
+}
+.nav__dropdown:hover > .nav__dropdown-menu,
+.nav__dropdown:focus-within > .nav__dropdown-menu {
+    display: block;
+}
+.nav__dropdown-menu li {
+    width: 100%;
+}
+.nav__dropdown-menu .nav__link {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    color: #2c5282 !important;
+    background: none;
+    font-weight: 500;
+    text-align: left;
+    border-radius: 0;
+    transition: background 0.2s, color 0.2s;
+}
+.nav__dropdown-menu .nav__link:hover {
+    background: #f7fafc;
+    color: #1a365d !important;
+}
 /* CSS Variables */
 :root {
     --primary-color: #3182ce;
@@ -64,6 +109,10 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #ffffff;
+}
+
+main {
+    padding-top: 180px;
 }
 
 .container {
@@ -181,7 +230,7 @@ p {
 }
 
 .nav__logo .logo {
-    height: 80px;
+    height: 160px;
     width: auto;
     transition: transform 0.3s ease;
 }
@@ -254,7 +303,7 @@ p {
 /* Hero Section */
 .hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    background: linear-gradient(135deg, #1a365d 0%, #274472 100%);
 }
 
 .hero .container {
@@ -266,13 +315,15 @@ p {
 
 .hero__title {
     font-size: 3.5rem;
-    color: #1a365d;
+    color: #fff !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
     margin-bottom: 1.5rem;
 }
 
 .hero__subtitle {
     font-size: 1.3rem;
-    color: #4a5568;
+    color: #fff !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
     margin-bottom: 2rem;
     line-height: 1.6;
 }
@@ -318,7 +369,16 @@ p {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 1.2rem;
-    color: #666;
+    color: #274472 !important;
+    text-shadow: none;
+}
+
+/* Keep white subtitle text only on dark backgrounds */
+.hero .section__subtitle,
+.luxury-hero .section__subtitle,
+.cta-section .section__subtitle {
+    color: #fff !important;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
 }
 
 .benefits__grid {
