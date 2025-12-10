@@ -17,8 +17,8 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://metroplexshield.com/">
     <meta property="og:title" content="MetroPlex Shield - Luxury Estate Maintenance | University Park, Highland Park, Preston Hollow">
-    <meta property="og:description" content="Premium home maintenance and estate concierge services for luxury homes. Customized preventive care plans starting at $89/month in University Park, Highland Park, and Preston Hollow."
-    <meta property="og:image" content="https://metroplexshield.com/assets/images/metroplex-shield-logo.svg">
+    <meta property="og:description" content="Premium home maintenance and estate concierge services for luxury homes. Customized preventive care plans starting at $89/month in University Park, Highland Park, and Preston Hollow.">
+    <meta property="og:image" content="https://metroplexshield.com/assets/images/New%20logo%20v5.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="MetroPlex Shield">
@@ -29,7 +29,7 @@
     <meta name="twitter:url" content="https://metroplexshield.com/">
     <meta name="twitter:title" content="MetroPlex Shield - Luxury Estate Maintenance | University Park, Highland Park, Preston Hollow">
     <meta name="twitter:description" content="Premium home maintenance and estate concierge services for luxury homes. Customized plans starting at $89/month.">
-    <meta name="twitter:image" content="https://metroplexshield.com/assets/images/metroplex-shield-logo.svg">
+    <meta name="twitter:image" content="https://metroplexshield.com/assets/images/New%20logo%20v5.png">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
@@ -43,25 +43,26 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "MetroPlex Shield",
-        "image": "https://metroplexshield.com/assets/images/metroplex-shield-logo.svg",
-        "description": "Professional home maintenance plans for Dallas, Garland, Plano, Richardson and surrounding areas. Quarterly, monthly, and bi-weekly preventive maintenance services.",
+        "image": "https://metroplexshield.com/assets/images/New%20logo%20v5.png",
+        "description": "Premium luxury estate maintenance and concierge services for high-end homes in University Park, Highland Park, and Preston Hollow. Customized preventive maintenance plans from $89/month.",
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Dallas",
             "addressRegion": "TX",
-            "postalCode": "75001",
+            "postalCode": "75205",
             "addressCountry": "US"
         },
         "telephone": "(682) 466-2130",
         "email": "info@metroplexshield.com",
         "url": "https://metroplexshield.com/",
         "areaServed": [
+            {"@type": "City", "name": "University Park, TX"},
+            {"@type": "City", "name": "Highland Park, TX"},
+            {"@type": "City", "name": "Preston Hollow, TX"},
             {"@type": "City", "name": "Dallas, TX"},
-            {"@type": "City", "name": "Garland, TX"},
-            {"@type": "City", "name": "Plano, TX"},
-            {"@type": "City", "name": "Richardson, TX"}
+            {"@type": "City", "name": "Plano, TX"}
         ],
-        "serviceType": ["Home Maintenance", "HVAC Maintenance", "Preventive Home Care", "Home Inspection"],
+        "serviceType": ["Luxury Home Maintenance", "Estate Concierge Services", "Preventive Home Care", "Fine Art Installation", "Smart Home Integration"],
         "priceRange": "$89-$249",
         "openingHours": "Mo-Fr 08:00-18:00, Sa 09:00-17:00",
         "sameAs": [
@@ -142,10 +143,65 @@
     }
     </script>
     
+    <!-- FAQ Schema for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What areas does MetroPlex Shield serve?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We specialize in luxury home maintenance for University Park, Highland Park, Preston Hollow, and Dallas's finest neighborhoods. Our concierge service is tailored to high-end estates and luxury properties."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much do your maintenance plans cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our estate maintenance plans start at $89/month for Essential coverage, $149/month for Guardian service, and $249/month for Premier concierge care. All plans can be fully customized to your estate's specific needs."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What makes MetroPlex Shield different from other handyman services?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We provide luxury estate concierge services with preventive maintenance, not just reactive repairs. Our services include fine art installation, smart home integration, wine cellar maintenance, and custom designer fixture installations tailored to high-end homes."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://metroplexshield.com/"
+            }
+        ]
+    }
+    </script>
+    
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://buy.stripe.com">
+    <link rel="preconnect" href="https://cal.com">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="assets/css/style.css" as="style">
+    <link rel="preload" href="assets/images/New%20logo%20v5.png" as="image">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" as="style">
     
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -200,7 +256,13 @@
                     </div>
                 </div>
                 <div class="hero__image" aria-hidden="true">
-                    <img src="assets/images/million-dollar-home-dallas.jpg" alt="Luxury home in Dallas" class="hero__main-image" style="width:100%;max-width:500px;border-radius:16px;box-shadow:0 4px 24px rgba(44,62,80,0.12);object-fit:cover;">
+                    <img src="assets/images/million-dollar-home-dallas.jpg" 
+                         alt="Luxury home in Dallas" 
+                         class="hero__main-image" 
+                         width="500" 
+                         height="375"
+                         loading="eager"
+                         style="width:100%;max-width:500px;border-radius:16px;box-shadow:0 4px 24px rgba(44,62,80,0.12);object-fit:cover;">
                 </div>
             </div>
         </section>
@@ -597,8 +659,14 @@
                 </div>
                 <div class="footer__section">
                     <h4>Service Area</h4>
-                    <p>Dallas, Garland, Plano, Richardson & Surrounding Areas</p>
-                    <img src="assets/images/New logo v5.png" alt="MetroPlex Shield" class="footer__logo-img">
+                    <p>University Park, Highland Park, Preston Hollow & Dallas's finest neighborhoods</p>
+                    <img src="assets/images/New logo v5.png" 
+                         alt="MetroPlex Shield Logo" 
+                         class="footer__logo-img"
+                         width="180"
+                         height="60"
+                         loading="lazy">
+                </div>
             </div>
             <div class="footer__bottom">
                 <p>&copy; 2024 MetroPlex Shield. All rights reserved.</p>
