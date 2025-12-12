@@ -648,7 +648,7 @@ p {
 /* Prevention Calculator Section */
 .prevention-calculator {
     padding: 80px 0;
-    background: linear-gradient(135deg, #fed7d7 0%, #feb2b2 100%);
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
     position: relative;
 }
 
@@ -660,7 +660,7 @@ p {
 .calculator-tagline {
     font-size: 1.5rem;
     font-style: italic;
-    color: #742a2a;
+    color: #1e3a8a;
     font-weight: 600;
     margin: 0;
 }
