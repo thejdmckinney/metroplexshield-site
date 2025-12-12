@@ -19,13 +19,13 @@ Disallow: /.git/
 Disallow: /.vscode/
 
 # Allow search engines to index main pages
-Allow: /essential-plan
-Allow: /guardian-plan
-Allow: /premier-plan
-Allow: /luxury-services
-Allow: /university-park
-Allow: /highland-park
-Allow: /preston-hollow
+Allow: /essential-plan.html
+Allow: /guardian-plan.html
+Allow: /premier-plan.html
+Allow: /luxury-services.html
+Allow: /university-park.html
+Allow: /highland-park.html
+Allow: /preston-hollow.html
 Allow: /assets/css/
 Allow: /assets/js/
 Allow: /assets/images/
